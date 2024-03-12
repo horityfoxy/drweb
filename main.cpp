@@ -12,7 +12,6 @@ void TrimRight(char* s) {
 }
 
 void main() {
-    setlocale(LC_ALL, "ru");
     char string[] = "char array with spaces      ";
     TrimRight(string);
 }
